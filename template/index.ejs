@@ -1,0 +1,21 @@
+<!Doctype html>
+
+<html>
+	<head>
+		<title>
+			Deno
+		</title>
+		<script src="/public/main.js"></script>
+		<script>
+			function changeBackgroundColor(){
+				document.body.bgColor = "#000000";
+			}
+		</script>
+	</head>
+	<body>
+		<% if(name){ %>
+		<%= name %>
+		<% } %>
+		<button onclick="changeBackgroundColor()">change color</button>
+	</body>
+</html>
